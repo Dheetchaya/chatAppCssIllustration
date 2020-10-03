@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+   
+}
+
+.bg-purple{
+    background: rgb(136,56,240);
+    background: linear-gradient(0deg, rgba(136,56,240,1) 20%, rgba(233,66,240,1) 100%);
+    height: 90%;
+    width: 25%; 
+    position: fixed;
+    border-bottom-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+    top: 0;
+    left: 0;
+}
+
+.mobile{
+    background: #fafafa;
+    width: 16%;
+    height: 458px;
+    position: relative;
+    margin-top: 8%;
+    margin-left: 20%;
+    border-radius: 30px;
+    border: 8px solid white;
+    box-shadow: 5px 5px 30px #d1d1d1;
+    min-width: 200px;
+}
+
+.mobile header{
+    background: rgb(136,56,240);
+    background: linear-gradient(90deg, rgba(136,56,240,1) 0%, rgba(233,66,240,1) 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding:;
+    height: 15%;
+    box-sizing: border-box;
+}
+.fa-chevron-left{
+    color: white;
+    max-width:8px;
+    padding-right: 2%;
+    opacity: 0.75;
+    cursor: pointer;
+}
+.fa-ellipsis-v{
+    opacity: 0.75;
+    color: white;
+    max-width: 4px;
+    margin-right:4%;
+    cursor: pointer;
+}
+.content{
+    margin-left:5%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.img{
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.mobile header .user{
+    display: inline-block;
+    width: 130px;
+}
+
+
+
+.sam{
+    opacity: 0.75;
+    color: white;
+    display: inline-block;
+    font-size: 0.7em; 
+    font-weight:bold;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    
+}
+.sam p{
+    opacity: 0.6;
+    padding-top: 10%;
+}
+.dark{
+    background: white;
+    height:15px;
+    width: 60%;
+    margin:0 auto;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-bottom: 10px;
+}
+.chat{
+    background: hsl(270, 20%, 96%);
+    height:85%;
+    padding: 0 0.5em 0.5em 0.5em;
+    box-sizing: border-box;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.msg1 li{
+    display: block;
+    font-size: 0.5em;
+    max-width: 65%;
+    padding: 0.8em;
+    color: hsl(276, 55%, 52%);
+    background: hsl(276, 23%, 91%);
+    border-radius: 10px;
+    margin-top: 0.4em;
+    box-sizing: border-box;
+    clear: both;
+}
+.msg2{
+    margin-top: 0.2em;
+    text-align: right;
+}
+.animal{
+    display: block;
+}
+
+.animal img{
+    border-radius: 10px;
+}
+
+.girl{
+    float: right;
+    text-align: right;
+    display: block;
+    font-size: 0.5em;
+    max-width: 70%;
+    padding: 0.7em;
+    color: hsl(271, 15%, 43%);
+    background: white;
+    border-radius: 10px;
+    margin-top: 0.8em;
+    box-sizing: border-box;
+}
+.prices{
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+
+.prices li{
+    display: block;
+    font-size: 0.5em;
+    max-width: 80%;
+    background: rgb(136,56,240);
+    background: linear-gradient(270deg, rgba(136,56,240,1) 0%, rgba(233,66,240,1) 100%);
+    border-radius: 10px;
+    margin-top: 0.6em;
+    box-sizing: border-box;
+   
+}
+
+.circle{
+    border-radius: 50%;
+    border: 1px solid hsl(289, 100%, 72%);
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+     
+.action{
+    font-size: 1em;
+    display: inline-block;
+    color: white;
+    opacity: 0.7;
+    vertical-align: middle;
+    margin-bottom: 0%;
+    padding:8% 0%;
+    
+    
+    
+}
+
+
+.prices li span{
+    display: inline-block;
+    color: white;
+    font-size: 1.3em;
+   vertical-align: middle;
+}
+
+
+.w-80{
+    width: 65%;
+    display: inline-block;
+    font-size: 1em;
+    vertical-align: middle;
+    padding-left: 3%;
+    
+}
+
+.mobile .chat input{
+    border: none;
+    box-sizing: border-box;
+    padding: 0.6em;
+    font-size: 0.6em;
+    width: 85%;
+    border-radius: 30px;
+}
+
+::placeholder{
+    color: hsl(206, 6%, 79%);
+}
+
+.text-box{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+.text-box button{
+    background: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    width:20px;
+    vertical-align: middle;
+}
+
+.fa-chevron-right {
+    color: white;
+    font-size: 0.5em;
+    vertical-align: middle;
+}
+
+.part-2{
+    bottom: 40%;
+    right: 17%;
+    position: fixed;
+    width: 34%;
+}
+
+.part-2 h2{
+    font-weight:bold;
+    font-size: 2em;
+    color: hsl(271, 36%, 24%);
+    margin-bottom: 0.5em;
+}
+
+.part-2 p {
+    font-weight: 400;
+    font-size: 1em;
+    color: hsl(270, 7%, 64%);
+    line-height: 1.5em;
+}
+
+.bg-pink{
+    background: rgb(136,56,240);
+    background: linear-gradient(0deg, rgba(136,56,240,1) 20%, rgba(233,66,240,1) 100%);
+    height: 80%;
+    width: 22%;
+    border-top-left-radius: 180px;
+   
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.1;
+}
+@media only screen and (max-width: 1024px){
+    .mobile{
+        height: 470px;
+        min-width: 210px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 800px){
+    .part-2{
+        display: inline-block;
+        position: static;
+        margin-top: 8em;
+        width: 90%;
+        margin: 3em 5%;
+    }
+    .part-2 h2{
+        text-align: center;
+    }
+
+    .part-2 p{
+        text-align: center;
+    }
+
+    .bg-purple{
+        width: 50%;
+        height: 50%;
+    }
+
+    .bg-pink{
+        width: 45%;
+        height:50%;
+    }
+
+    .mobile{
+        margin:0 auto;
+        left: 0;
+        margin-top: 30%;
+    }
+}
